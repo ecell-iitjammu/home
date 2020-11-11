@@ -1,0 +1,63 @@
+.event {
+    margin: 0;
+    background-image: url("../images/prac.jpg") ;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height:800px;
+    display: flex; 
+    flex-direction: column;
+   align-items: center; 
+   justify-content:space-between; 
+   text-align: center; 
+   padding: 0;
+   }
+
+.event h1{
+    color: white;
+    font-size: 5rem;
+}
+.event h2{
+    color: white;
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+.event .q{
+    background-color:rgb(46, 43, 43);
+    border: grey solid 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 40%;
+}
+
+
+label{
+    padding: 5px; font-size: 2.5rem;
+}
+
+.modal{
+    color:#ffffff ;
+}
+
+.modal-body h3 a{
+  color:white
+}
+
+.modal-body{
+    background-color: black;
+}
+
+.modal-header{
+    background-color: black;
+}
+.modal-body .btn-light{
+    font-size: 3rem;
+}
+.modal-body .btn-danger{
+    font-size: 2.5rem;
+}
+

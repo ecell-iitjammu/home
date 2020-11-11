@@ -1,0 +1,47 @@
+*{
+    margin:0; !important
+    margin-top: 0;
+}
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
+}
+.event {
+    margin: 0;
+    background-image: url("../images/evvent_home.jpg") ;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height:800px;
+   }
+
+.center {
+   border: 20px solid #73AD21;
+   position: absolute;
+   margin: auto;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+  }
+
+  
