@@ -30,14 +30,14 @@ height: auto;
 }
 
 .event .q{
-    background-color:rgb(46, 43, 43);
-    border: grey solid 5px;
+   background-color:transparent;
+    border-color:transparent;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    width: 40%;
+    width: 25%;
     margin-top: 10px;
 }
 
