@@ -1,15 +1,31 @@
 *{
-    margin:0; !important
+    margin:0; 
     margin-top: 0;
 }
-html,
-body,
-header,
-.view {
-  height: 100%;
+
+
+.event button{
+  
+  background-color: transparent;
+  border-color: transparent;
 }
 
-@media (max-width: 740px) {
+.btn:hover{
+  height:auto;
+  background-color: transparent;
+  border-color: transparent;
+  background-image:url("../images/stars1.png");
+}
+
+.key{
+  margin-top: 50px;
+  height:35rem;
+  width: auto;
+}
+
+
+
+/* @media (max-width: 740px) {
   html,
   body,
   header,
@@ -24,24 +40,101 @@ header,
   .view {
     height: 600px;
   }
-}
+} */
+
 .event {
     margin: 0;
-    background-image: url("../images/evvent_home.jpg") ;
+    background-image: url("../images/door.jpg") ;
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover ;
-    height:800px;
+    background-position: center center;
+    display: flex; 
+    flex-direction: column;
+   align-items: center; 
+   justify-content:space-around; 
+   text-align: center; 
+   padding: 0;
+   max-width: 100%;
+   height:1000px; 
    }
 
-.center {
-   border: 20px solid #73AD21;
-   position: absolute;
-   margin: auto;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-
+   .title{
+     position: absolute;
+     top:20%;
+   }
+   .object {
+    animation: MoveUpDown 1s linear infinite;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    40% {
+      bottom: 40px;
+    }
   }
 
+  .modal-content{
+    background-image: url(../images/castle.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center; 
+    /* padding-left: 30%;; */
+
+  }
+.r{
+    align-self: flex-start;
+    float:left;
+}  
+
+.r1{
+  width: 13%; 
+  height:auto;
   
+}
+.r2{
+  width: 13%; 
+  height:auto;
+  margin-left:40%;
+}
+.r3{
+  width: 10%; 
+  height:auto;
+  margin-left: 17%;
+}
+
+  .r2,.r1{
+    padding-top:10%;
+  }
+
+  .r3{
+    width: 15%;
+    height: auto;
+    padding-left: 1%;;
+    /* margin-left:30%; */
+  }
+   
+
+  .rp{
+    width: 25%;
+    height: auto;
+    margin-top: 5px;
+    margin-left:20%;
+  }
+
+  .sy{
+    width:20%;
+    height:auto;
+    
+  }
