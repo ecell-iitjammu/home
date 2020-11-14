@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.event {
+    margin: 0;
+    background-image: url("../images/classroom.jpeg") ;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+    display: flex; 
+    flex-direction: column;
+   align-items: center; 
+   justify-content:space-around; 
+   text-align: center; 
+   padding: 0;
+   max-width: 100%;
+   height: 100%; 
+}
+
+.event h1{
+    color: white;
+    font-size: 5rem;
+}
+.event h2{
+    color: white;
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+.event .q{
+    background-color:transparent;
+    border-color:transparent;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 25%;
+    margin-top: 10px;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: default;
+    -webkit-animation: rotateyr 6s linear infinite;
+    -moz-animation: rotateyr 6s linear infinite;
+    animation: rotateyr 6s linear infinite;
+}
+
+.event .btn:hover{
+    background-color:#000000;
+    background: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+    height:auto;
+    border-color: black;
+    border-style: inset;
+    border-radius: 20px;
+}
+
+
+label{
+    padding: 5px; font-size: 2.5rem;
+}
+
+.modal{
+    color:#ffffff ;
+}
+
+.modal-body h3 a{
+  color:white
+}
+
+.modal-body{
+    background-color: black;
+}
+
+.modal-header{
+    background-color: black;
+}
+.modal-body .btn-light{
+    font-size: 3rem;
+}
+.modal-body .btn-danger{
+    font-size: 2.5rem;
+}
+
+.l{
+    height:80px;
+    width: auto;
+}
+
+/* .balloon-green-r {
+    background: url("http://doggydish.com/PROJECTS/balloon-green-r.svg");
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: default;
+    width: 152px;
+    height: 202px;
+    text-align: right;
+     -webkit-animation: rotateyr 6s linear infinite;
+    -moz-animation: rotateyr 6s linear infinite;
+    animation: rotateyr 6s linear infinite;
+    margin: 0 auto;
+    position: absolute;
+    background-color:#1abc9c;
+} */
+
+@-webkit-keyframes rotateyr {
+    0% {
+        -webkit-transform: rotateY(0deg);
+        -webkit-transform-origin: 50% 0% 0;
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+        -webkit-transform-origin: 50% 0% 0;
+    }
+}

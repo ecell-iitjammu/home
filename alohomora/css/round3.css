@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.event {
+    margin: 0;
+    background-image: url("../images/gallery.jpg") ;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+    display: flex; 
+    flex-direction: column;
+   align-items: center; 
+   justify-content:space-around; 
+   text-align: center; 
+   padding: 0;
+   max-width: 100%;
+   height:800px;
+}
+
+.event h1{
+    color: white;
+    font-size: 5rem;
+}
+.event h2{
+    color: white;
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+.event .q{
+    background-color:transparent;
+    border-color:transparent;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 25%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+
+
+label{
+    padding: 5px; font-size: 2.5rem;
+}
+
+.modal{
+    color:#ffffff ;
+}
+
+.modal-body h3 a{
+  color:white
+}
+
+.modal-body{
+    background-color: black;
+}
+
+.modal-header{
+    background-color: black;
+}
+.modal-body .btn-light{
+    font-size: 3rem;
+}
+.modal-body .btn-danger{
+    font-size: 2.5rem;
+}
+
+.l{
+
+    height:80px;
+    width: auto;
+}
