@@ -90,22 +90,25 @@ label{
     width: auto;
 }
 
-/* .balloon-green-r {
-    background: url("http://doggydish.com/PROJECTS/balloon-green-r.svg");
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    cursor: default;
-    width: 152px;
-    height: 202px;
-    text-align: right;
-     -webkit-animation: rotateyr 6s linear infinite;
-    -moz-animation: rotateyr 6s linear infinite;
-    animation: rotateyr 6s linear infinite;
-    margin: 0 auto;
-    position: absolute;
-    background-color:#1abc9c;
-} */
+.modal-body .btn-warning{
+   font-size: 3rem;
+   color:black;
+}
+
+.modal-body .btn-primary{
+    font-size: 3rem;
+}
+
+.modal-body .git{
+  margin-left: 10%;
+  width: 20%;
+  height: auto;
+}
+.modal-body .tech{
+    margin-top: 5%;
+    width: 60%;
+    height: auto;
+  }
 
 @-webkit-keyframes rotateyr {
     0% {
@@ -117,3 +120,4 @@ label{
         -webkit-transform-origin: 50% 0% 0;
     }
 }
+
