@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 .event {
     margin: 0;
@@ -39,14 +41,8 @@
     display: inline-block;
     width: 25%;
     margin-top: 10px;
+    animation: scale 3s linear infinite;
 
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    cursor: default;
-    -webkit-animation: rotateyr 6s linear infinite;
-    -moz-animation: rotateyr 6s linear infinite;
-    animation: rotateyr 6s linear infinite;
 }
 
 .event .btn:hover{
@@ -90,30 +86,42 @@ label{
     width: auto;
 }
 
-/* .balloon-green-r {
-    background: url("http://doggydish.com/PROJECTS/balloon-green-r.svg");
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    cursor: default;
-    width: 152px;
-    height: 202px;
-    text-align: right;
-     -webkit-animation: rotateyr 6s linear infinite;
-    -moz-animation: rotateyr 6s linear infinite;
-    animation: rotateyr 6s linear infinite;
-    margin: 0 auto;
-    position: absolute;
-    background-color:#1abc9c;
-} */
-
-@-webkit-keyframes rotateyr {
-    0% {
-        -webkit-transform: rotateY(0deg);
-        -webkit-transform-origin: 50% 0% 0;
-    }
-    100% {
-        -webkit-transform: rotateY(360deg);
-        -webkit-transform-origin: 50% 0% 0;
-    }
+.modal-body .modi{
+    width:90%;
 }
+
+.modal-body .btn-warning{
+    font-size: 3rem;
+    color:black;
+ }
+ 
+ .modal-body .btn-primary{
+     font-size: 3rem;
+ }
+
+.modal-body .hint{
+    background-color: rgb(216, 81, 81);
+    color: seashell;
+    font-size: 2.5rem;
+    padding: 4%;
+    margin-bottom: 6%;
+}
+
+.modal-body .hinta{
+    background-color: rgb(216, 81, 81);
+    color: seashell;
+    font-size: 2.5rem;
+    padding: 2%;
+    margin-bottom: 6%;
+    margin-top: 5%;
+}
+  
+ @keyframes scale {
+    50% {
+      -webkit-transform:scale(1.2);
+      -moz-transform:scale(1.2);
+      -ms-transform:scale(1.2);
+      -o-transform:scale(1.2);
+      transform:scale(1.2);
+    }
+  }
