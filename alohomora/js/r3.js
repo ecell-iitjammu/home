@@ -46,3 +46,23 @@ var c3 = document.querySelector(".q3");
      requestAnimationFrame(animate3);
    }
    animate3();
+
+
+   var x = document.getElementById("myAudio"); 
+   var x1 = document.getElementById("Hint4"); 
+   function playAudio() { 
+     x.play(); 
+   } 
+   
+   function pauseAudio() { 
+     x.pause(); 
+   } 
+   
+   
+   function playAudio1() { 
+     x1.play(); 
+   } 
+   
+   function pauseAudio1() { 
+     x1.pause(); 
+   } 
