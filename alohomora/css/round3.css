@@ -75,6 +75,33 @@ label{
     font-size: 2.5rem;
 }
 
+
+.modal-body .btn-warning{
+    font-size: 3rem;
+    color:black;
+ }
+ 
+ .modal-body .btn-primary{
+     font-size: 3rem;
+ }
+
+.modal-body .hint{
+    background-color: rgb(216, 81, 81);
+    color: seashell;
+    font-size: 2.5rem;
+    padding: 4%;
+    margin-bottom: 6%;
+}
+
+.modal-body .hinta{
+    background-color: rgb(216, 81, 81);
+    color: seashell;
+    font-size: 2.5rem;
+    padding: 2%;
+    margin-bottom: 6%;
+    margin-top: 5%;
+}
+
 .l{
 
     height:80px;
